@@ -1,0 +1,13 @@
+mode=dmenu
+hide_search=true
+show=dmenu
+width=250
+height=210
+location=center
+x=0
+y=0
+prompt=
+insensitive=true
+allow_images=false
+markup=true
+term=alacritty

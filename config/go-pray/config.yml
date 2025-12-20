@@ -1,0 +1,28 @@
+# INFO: Calculation configuration for Gresik, Indonesia.
+calculation:
+  # SINGAPORE method uses 20° Fajr / 18° Isha (Standard for Indonesia)
+  method: SINGAPORE
+
+  # Use Shafi (Standard for Indonesia/Malaysia)
+  params:
+    madhab: SHAFI
+    high_latitude_rule: TWILIGHT
+
+  # Optional: Adjust minutes if you find them slightly off compared to local jadwal
+  adjustment:
+    fajr: 0
+    dhuhr: 2 # Often added for safety (istiwa)
+    asr: 0
+    maghrib: 0
+    isha: 0
+
+# INFO: Timezone for Western Indonesia Time (WIB)
+timezone: Asia/Jakarta
+
+# INFO: Location coordinates for Gresik, Indonesia
+location:
+  lat: -7.1566
+  long: 112.6555
+
+# INFO: Output language
+language: en

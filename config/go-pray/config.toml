@@ -1,0 +1,4 @@
+city = "Gresik"
+country = "Indonesia"
+method = "Kemenag" # Indonesian Ministry of Religious Affairs
+time_format = "24h" # Crucial for our script logic

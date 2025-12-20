@@ -1,0 +1,37 @@
+/* Main Window */
+window {
+    margin: 0px;
+    background-color: #1e1e2e; /* Mocha Base */
+    border: 1px solid #89b4fa; /* Mocha Blue */
+    border-radius: 12px;
+    font-family: "JetBrainsMono Nerd Font";
+}
+
+/* Inner Container - This adds breathing room so the search bar doesn't touch the border */
+#outer-box {
+    margin: 8px;
+}
+
+/* The Search Bar */
+#input {
+    margin: 8px;
+    border: none;
+    background-color: #313244; /* Mocha Surface0 */
+    color: #cdd6f4;            /* Mocha Text */
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* Selected Item */
+#entry:selected {
+    background-color: #89b4fa; /* Mocha Blue */
+    border-radius: 8px;
+}
+
+#text {
+  color: #ffffff;
+}
+
+#text:selected {
+    color: #1e1e2e; /* Dark text on blue background */
+}
