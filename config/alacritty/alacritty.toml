@@ -12,7 +12,7 @@ opacity = 0.9
 decorations = "None"
 
 [font]
-normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
-bold = { family = "JetBrainsMono Nerd Font", style = "Bold" }
-italic = { family = "JetBrainsMono Nerd Font", style = "Italic" }
+normal = { family = "GeistMono Nerd Font", style = "Regular" }
+bold = { family = "GeistMono Nerd Font", style = "Bold" }
+italic = { family = "GeistMono Nerd Font", style = "Italic" }
 size = 12.0

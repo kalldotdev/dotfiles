@@ -10,7 +10,7 @@
     notification_limit = 5
 
     # --- Visuals ---
-    font = JetBrainsMono Nerd Font 10
+    font = GeistMono Nerd Font 10
     frame_width = 2
     frame_color = "#89b4fa"  # Catppuccin Blue
     separator_color = frame

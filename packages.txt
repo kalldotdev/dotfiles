@@ -9,16 +9,37 @@ waybar
 wofi
 rofi
 
-# Terminal Emulators
+# === Interactive Selection Choices ===
+
+# Terminals
+kitty
 alacritty
 ghostty
+
+# Browsers (Selectable)
+zen-browser-bin (AUR)
+firefox
+google-chrome (AUR)
+microsoft-edge-stable-bin (AUR)
+brave-bin (AUR)
+chromium
+
+# Media Players
+mpv
+vlc
+celluloid
+
+# Shells
+zsh
+bash
+fish
 
 # Notifications
 mako
 dunst
 
 # Logout Menu
-wlogout
+# wlogout
 
 # File Manager
 thunar
@@ -40,10 +61,14 @@ pamixer
 # Brightness Control
 brightnessctl
 
-# System Tray Applets
-network-manager-applet
-blueman
-udiskie
+# Networking (TUI)
+# bluetui (AUR)
+# impala (AUR)
+
+# Lazy Tools
+lazygit
+# lazydocker (AUR)
+
 
 # Polkit Agent
 polkit-kde-agent
@@ -52,7 +77,7 @@ polkit-kde-agent
 qt6ct
 
 # Fonts
-ttf-jetbrains-mono-nerd
+# otf-geist-mono-nerd (AUR)
 
 # Portal
 xdg-desktop-portal-hyprland
@@ -61,8 +86,30 @@ xdg-desktop-portal-hyprland
 starship
 
 # AUR Packages (yay/paru)
-# hyprswitch
-# go-pray-bin
-# catppuccin-gtk-theme-mocha
-# qogir-cursor-theme-git
-# hypremoji
+hyprswitch
+go-pray-bin
+catppuccin-gtk-theme-mocha
+qogir-cursor-theme-git
+hypremoji
+# Shell & Plugins
+zsh
+zsh-autosuggestions
+zsh-syntax-highlighting
+
+# Audio Stack
+pipewire
+wireplumber
+pipewire-pulse
+
+# File Manager Plugins
+gvfs
+thunar-archive-plugin
+file-roller
+
+# Networking (Backends)
+bluez
+bluez-utils
+
+# Appearance
+nwg-look
+

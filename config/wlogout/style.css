@@ -1,16 +1,17 @@
 /* Catppuccin Mocha Palette */
-@define-color base   #1e1e2e;
-@define-color text   #cdd6f4;
-@define-color blue   #89b4fa;
+@define-color base #1e1e2e;
+@define-color text #cdd6f4;
+@define-color blue #89b4fa;
 @define-color surface0 #313244;
 
 * {
     background-image: none;
-    font-family: "JetBrainsMono Nerd Font";
+    font-family: "GeistMono Nerd Font";
 }
 
 window {
-    background-color: rgba(30, 30, 46, 0.85); /* Base with opacity */
+    background-color: rgba(30, 30, 46, 0.85);
+    /* Base with opacity */
 }
 
 button {
@@ -19,7 +20,8 @@ button {
     border: 2px solid @base;
     border-radius: 20px;
     margin: 10px;
-    font-size: 40px; /* Large icons */
+    font-size: 40px;
+    /* Large icons */
     transition: box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
@@ -33,4 +35,3 @@ button:focus {
     background-color: @blue;
     color: @base;
 }
-

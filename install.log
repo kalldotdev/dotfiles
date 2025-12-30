@@ -1,0 +1,372 @@
+[2025-12-30 17:47:30] [WARNING] DRY RUN MODE ENABLED - No changes will be made
+[2025-12-30 17:47:30] [INFO] Section: Checking System
+[2025-12-30 17:47:30] [SUCCESS] Arch Linux / EndeavourOS detected
+[2025-12-30 17:47:30] [INFO] Log file: /home/kall/dotfiles/install.log
+[2025-12-30 17:47:30] [INFO] Section: Selecting Components
+[2025-12-30 17:47:30] [INFO] Section: Select Components to Install
+[2025-12-30 17:47:30] [INFO] Section: Select Components to Install
+[2025-12-30 17:47:30] [INFO] Section: Select Components to Install
+[2025-12-30 17:49:54] [INFO] Section: Select Components to Install
+[2025-12-30 17:50:12] [INFO] Section: Installing Packages
+[2025-12-30 17:50:12] [INFO] Updating system...
+[2025-12-30 17:50:12] [INFO] Installing Official Repository Packages...
+[2025-12-30 17:50:12] [INFO] Installing AUR Packages...
+[2025-12-30 17:50:12] [SUCCESS] Package installation complete.
+[2025-12-30 17:50:12] [INFO] Section: Configuration Files
+[2025-12-30 17:50:12] [INFO] Backup directory: /home/kall/.config_backup_20251230_174730
+[2025-12-30 17:50:12] [INFO] Backing up hypr...
+[2025-12-30 17:50:12] [INFO] Installing hypr config...
+[2025-12-30 17:50:12] [INFO] Backing up waybar...
+[2025-12-30 17:50:12] [INFO] Installing waybar config...
+[2025-12-30 17:50:12] [INFO] Backing up rofi...
+[2025-12-30 17:50:12] [INFO] Installing rofi config...
+[2025-12-30 17:50:12] [INFO] Backing up wofi...
+[2025-12-30 17:50:12] [INFO] Installing wofi config...
+[2025-12-30 17:50:12] [INFO] Backing up alacritty...
+[2025-12-30 17:50:12] [INFO] Installing alacritty config...
+[2025-12-30 17:50:12] [INFO] Backing up mako...
+[2025-12-30 17:50:12] [INFO] Installing mako config...
+[2025-12-30 17:50:12] [INFO] Backing up wlogout...
+[2025-12-30 17:50:12] [INFO] Installing wlogout config...
+[2025-12-30 17:50:12] [INFO] Backing up go-pray...
+[2025-12-30 17:50:12] [INFO] Installing go-pray config...
+[2025-12-30 17:50:12] [INFO] Backing up ghostty...
+[2025-12-30 17:50:12] [INFO] Installing ghostty config...
+[2025-12-30 17:50:12] [INFO] Backing up dunst...
+[2025-12-30 17:50:12] [INFO] Installing dunst config...
+[2025-12-30 17:50:12] [INFO] Updating .bashrc...
+[2025-12-30 17:50:12] [SUCCESS] Configurations installed.
+[2025-12-30 17:50:12] [INFO] Section: Post-Installation
+[2025-12-30 17:50:12] [SUCCESS] Setup complete!
+[2025-12-30 17:50:56] [WARNING] DRY RUN MODE ENABLED - No changes will be made
+[2025-12-30 17:50:56] [INFO] Section: Checking System
+[2025-12-30 17:50:56] [SUCCESS] Arch Linux / EndeavourOS detected
+[2025-12-30 17:50:56] [INFO] Log file: /home/kall/dotfiles/install.log
+[2025-12-30 17:50:56] [INFO] Section: Selecting Components
+[2025-12-30 17:50:56] [INFO] Section: Select Components to Install
+[2025-12-30 17:50:59] [WARNING] DRY RUN MODE ENABLED - No changes will be made
+[2025-12-30 17:50:59] [INFO] Section: Checking System
+[2025-12-30 17:50:59] [SUCCESS] Arch Linux / EndeavourOS detected
+[2025-12-30 17:50:59] [INFO] Log file: /home/kall/dotfiles/install.log
+[2025-12-30 17:50:59] [INFO] Section: Selecting Components
+[2025-12-30 17:50:59] [INFO] Section: Select Components to Install
+[2025-12-30 17:51:05] [WARNING] DRY RUN MODE ENABLED - No changes will be made
+[2025-12-30 17:51:05] [INFO] Section: Checking System
+[2025-12-30 17:51:05] [SUCCESS] Arch Linux / EndeavourOS detected
+[2025-12-30 17:51:05] [INFO] Log file: /home/kall/dotfiles/install.log
+[2025-12-30 17:51:05] [INFO] Section: Selecting Components
+[2025-12-30 17:51:05] [INFO] Section: Select Components to Install
+[2025-12-30 17:51:10] [WARNING] DRY RUN MODE ENABLED - No changes will be made
+[2025-12-30 17:51:10] [INFO] Section: Checking System
+[2025-12-30 17:51:10] [SUCCESS] Arch Linux / EndeavourOS detected
+[2025-12-30 17:51:10] [INFO] Log file: /home/kall/dotfiles/install.log
+[2025-12-30 17:51:10] [INFO] Section: Selecting Components
+[2025-12-30 17:51:10] [INFO] Section: Select Components to Install
+[2025-12-30 17:54:01] [WARNING] DRY RUN MODE ENABLED - No changes will be made
+[2025-12-30 17:54:01] [INFO] Section: Checking System
+[2025-12-30 17:54:01] [SUCCESS] Arch Linux / EndeavourOS detected
+[2025-12-30 17:54:01] [INFO] Log file: /home/kall/dotfiles/install.log
+[2025-12-30 17:54:01] [INFO] Section: Selecting Components
+[2025-12-30 17:54:01] [INFO] Section: Select Components to Install
+[2025-12-30 17:56:08] [WARNING] DRY RUN MODE ENABLED - No changes will be made
+[2025-12-30 17:56:08] [INFO] Section: Checking System
+[2025-12-30 17:56:08] [SUCCESS] Arch Linux / EndeavourOS detected
+[2025-12-30 17:56:08] [INFO] Log file: /home/kall/dotfiles/install.log
+[2025-12-30 17:56:08] [INFO] Section: Selecting Components
+[2025-12-30 17:56:08] [INFO] Section: Select Components to Install
+[2025-12-30 17:56:51] [WARNING] DRY RUN MODE ENABLED - No changes will be made
+[2025-12-30 17:56:51] [INFO] Section: Checking System
+[2025-12-30 17:56:51] [SUCCESS] Arch Linux / EndeavourOS detected
+[2025-12-30 17:56:51] [INFO] Log file: /home/kall/dotfiles/install.log
+[2025-12-30 17:56:51] [INFO] Section: Selecting Components
+[2025-12-30 17:56:52] [INFO] Section: Select Components to Install
+[2025-12-30 17:58:47] [WARNING] DRY RUN MODE ENABLED - No changes will be made
+[2025-12-30 17:58:47] [INFO] Section: Checking System
+[2025-12-30 17:58:47] [SUCCESS] Arch Linux / EndeavourOS detected
+[2025-12-30 17:58:47] [INFO] Log file: /home/kall/dotfiles/install.log
+[2025-12-30 17:58:47] [INFO] Section: Selecting Components
+[2025-12-30 17:58:47] [INFO] Section: Select Components to Install
+[2025-12-30 17:58:55] [INFO] Section: Checking System
+[2025-12-30 17:58:55] [SUCCESS] Arch Linux / EndeavourOS detected
+[2025-12-30 17:58:55] [INFO] Log file: /home/kall/dotfiles/install.log
+[2025-12-30 17:58:55] [INFO] Section: Selecting Components
+[2025-12-30 17:58:55] [INFO] Section: Select Components to Install
+[2025-12-30 17:59:10] [INFO] Section: Checking System
+[2025-12-30 17:59:10] [SUCCESS] Arch Linux / EndeavourOS detected
+[2025-12-30 17:59:10] [INFO] Log file: /home/kall/dotfiles/install.log
+[2025-12-30 17:59:10] [INFO] Section: Selecting Components
+[2025-12-30 17:59:10] [INFO] Section: Select Components to Install
+[2025-12-30 17:59:16] [INFO] Section: Checking System
+[2025-12-30 17:59:16] [SUCCESS] Arch Linux / EndeavourOS detected
+[2025-12-30 17:59:16] [INFO] Log file: /home/kall/dotfiles/install.log
+[2025-12-30 17:59:16] [INFO] Section: Selecting Components
+[2025-12-30 17:59:16] [INFO] Section: Select Components to Install
+[2025-12-30 17:59:19] [WARNING] Installation aborted by user.
+[2025-12-30 17:59:19] [INFO] Section: Configuration Files
+[2025-12-30 17:59:19] [INFO] Section: Post-Installation
+[2025-12-30 17:59:19] [SUCCESS] Setup complete!
+[2025-12-30 17:59:27] [INFO] Section: Checking System
+[2025-12-30 17:59:27] [SUCCESS] Arch Linux / EndeavourOS detected
+[2025-12-30 17:59:27] [INFO] Log file: /home/kall/dotfiles/install.log
+[2025-12-30 17:59:27] [INFO] Section: Selecting Components
+[2025-12-30 17:59:27] [INFO] Section: Select Components to Install
+[2025-12-30 17:59:42] [WARNING] DRY RUN MODE ENABLED - No changes will be made
+[2025-12-30 17:59:42] [INFO] Section: Checking System
+[2025-12-30 17:59:42] [SUCCESS] Arch Linux / EndeavourOS detected
+[2025-12-30 17:59:42] [INFO] Log file: /home/kall/dotfiles/install.log
+[2025-12-30 17:59:42] [INFO] Section: Selecting Components
+[2025-12-30 17:59:42] [INFO] Section: Select Components to Install
+[2025-12-30 17:59:46] [WARNING] DRY RUN MODE ENABLED - No changes will be made
+[2025-12-30 17:59:46] [INFO] Section: Checking System
+[2025-12-30 17:59:46] [SUCCESS] Arch Linux / EndeavourOS detected
+[2025-12-30 17:59:46] [INFO] Log file: /home/kall/dotfiles/install.log
+[2025-12-30 17:59:46] [INFO] Section: Selecting Components
+[2025-12-30 17:59:46] [INFO] Section: Select Components to Install
+[2025-12-30 17:59:50] [WARNING] Installation aborted by user.
+[2025-12-30 17:59:50] [INFO] Section: Configuration Files
+[2025-12-30 17:59:52] [INFO] Section: Post-Installation
+[2025-12-30 17:59:52] [SUCCESS] Setup complete!
+[2025-12-30 18:00:03] [INFO] Section: Checking System
+[2025-12-30 18:00:03] [SUCCESS] Arch Linux / EndeavourOS detected
+[2025-12-30 18:00:03] [INFO] Log file: /home/kall/dotfiles/install.log
+[2025-12-30 18:00:03] [INFO] Section: Selecting Components
+[2025-12-30 18:00:03] [INFO] Section: Select Components to Install
+[2025-12-30 18:00:57] [WARNING] DRY RUN MODE ENABLED - No changes will be made
+[2025-12-30 18:00:57] [INFO] Section: Checking System
+[2025-12-30 18:00:57] [SUCCESS] Arch Linux / EndeavourOS detected
+[2025-12-30 18:00:57] [INFO] Log file: /home/kall/dotfiles/install.log
+[2025-12-30 18:00:57] [INFO] Section: Selecting Components
+[2025-12-30 18:00:57] [INFO] Section: Select Components to Install
+[2025-12-30 18:01:00] [INFO] Section: Select Components to Install
+[2025-12-30 18:01:00] [INFO] Section: Select Components to Install
+[2025-12-30 18:01:09] [WARNING] DRY RUN MODE ENABLED - No changes will be made
+[2025-12-30 18:01:09] [INFO] Section: Checking System
+[2025-12-30 18:01:09] [SUCCESS] Arch Linux / EndeavourOS detected
+[2025-12-30 18:01:09] [INFO] Log file: /home/kall/dotfiles/install.log
+[2025-12-30 18:01:09] [INFO] Section: Selecting Components
+[2025-12-30 18:01:09] [INFO] Section: Select Components to Install
+[2025-12-30 18:01:10] [INFO] Section: Select Components to Install
+[2025-12-30 18:01:11] [INFO] Section: Select Components to Install
+[2025-12-30 18:01:11] [INFO] Section: Select Components to Install
+[2025-12-30 18:01:11] [INFO] Section: Select Components to Install
+[2025-12-30 18:01:11] [INFO] Section: Select Components to Install
+[2025-12-30 18:01:11] [INFO] Section: Select Components to Install
+[2025-12-30 18:01:12] [INFO] Section: Select Components to Install
+[2025-12-30 18:01:12] [INFO] Section: Select Components to Install
+[2025-12-30 18:01:12] [INFO] Section: Select Components to Install
+[2025-12-30 18:01:15] [WARNING] Installation aborted by user.
+[2025-12-30 18:01:15] [INFO] Section: Configuration Files
+[2025-12-30 18:01:16] [INFO] Section: Post-Installation
+[2025-12-30 18:01:16] [SUCCESS] Setup complete!
+[2025-12-30 18:01:19] [WARNING] DRY RUN MODE ENABLED - No changes will be made
+[2025-12-30 18:01:19] [INFO] Section: Checking System
+[2025-12-30 18:01:19] [SUCCESS] Arch Linux / EndeavourOS detected
+[2025-12-30 18:01:19] [INFO] Log file: /home/kall/dotfiles/install.log
+[2025-12-30 18:01:19] [INFO] Section: Selecting Components
+[2025-12-30 18:01:19] [INFO] Section: Select Components to Install
+[2025-12-30 18:01:20] [INFO] Section: Select Components to Install
+[2025-12-30 18:01:20] [INFO] Section: Select Components to Install
+[2025-12-30 18:01:20] [INFO] Section: Select Components to Install
+[2025-12-30 18:01:20] [INFO] Section: Select Components to Install
+[2025-12-30 18:01:21] [INFO] Section: Select Components to Install
+[2025-12-30 18:01:21] [INFO] Section: Select Components to Install
+[2025-12-30 18:01:23] [INFO] Section: Select Components to Install
+[2025-12-30 18:01:25] [WARNING] Installation aborted by user.
+[2025-12-30 18:01:25] [INFO] Section: Configuration Files
+[2025-12-30 18:01:26] [INFO] Section: Post-Installation
+[2025-12-30 18:01:26] [SUCCESS] Setup complete!
+[2025-12-30 18:01:27] [WARNING] DRY RUN MODE ENABLED - No changes will be made
+[2025-12-30 18:01:27] [INFO] Section: Checking System
+[2025-12-30 18:01:27] [SUCCESS] Arch Linux / EndeavourOS detected
+[2025-12-30 18:01:27] [INFO] Log file: /home/kall/dotfiles/install.log
+[2025-12-30 18:01:27] [INFO] Section: Selecting Components
+[2025-12-30 18:01:27] [INFO] Section: Select Components to Install
+[2025-12-30 18:01:29] [WARNING] Installation aborted by user.
+[2025-12-30 18:01:29] [INFO] Section: Configuration Files
+[2025-12-30 18:01:30] [INFO] Section: Post-Installation
+[2025-12-30 18:01:30] [SUCCESS] Setup complete!
+[2025-12-30 18:03:06] [WARNING] DRY RUN MODE ENABLED - No changes will be made
+[2025-12-30 18:03:06] [INFO] Section: Checking System
+[2025-12-30 18:03:06] [SUCCESS] Arch Linux / EndeavourOS detected
+[2025-12-30 18:03:06] [INFO] Log file: /home/kall/dotfiles/install.log
+[2025-12-30 18:03:06] [INFO] Section: Selecting Components
+[2025-12-30 18:03:06] [INFO] Section: Select Components to Install
+[2025-12-30 18:03:09] [INFO] Section: Select Components to Install
+[2025-12-30 18:03:09] [INFO] Section: Select Components to Install
+[2025-12-30 18:03:09] [INFO] Section: Select Components to Install
+[2025-12-30 18:03:13] [INFO] Section: Select Components to Install
+[2025-12-30 18:03:24] [WARNING] DRY RUN MODE ENABLED - No changes will be made
+[2025-12-30 18:03:24] [INFO] Section: Checking System
+[2025-12-30 18:03:24] [SUCCESS] Arch Linux / EndeavourOS detected
+[2025-12-30 18:03:24] [INFO] Log file: /home/kall/dotfiles/install.log
+[2025-12-30 18:03:24] [INFO] Section: Selecting Components
+[2025-12-30 18:03:24] [INFO] Section: Select Components to Install
+[2025-12-30 18:03:25] [INFO] Section: Select Components to Install
+[2025-12-30 18:03:25] [INFO] Section: Select Components to Install
+[2025-12-30 18:03:26] [INFO] Section: Select Components to Install
+[2025-12-30 18:03:26] [INFO] Section: Select Components to Install
+[2025-12-30 18:03:27] [INFO] Section: Select Components to Install
+[2025-12-30 18:03:27] [INFO] Section: Select Components to Install
+[2025-12-30 18:03:27] [INFO] Section: Select Components to Install
+[2025-12-30 18:03:27] [INFO] Section: Select Components to Install
+[2025-12-30 18:03:28] [INFO] Section: Select Components to Install
+[2025-12-30 18:03:28] [INFO] Section: Select Components to Install
+[2025-12-30 18:03:28] [INFO] Section: Select Components to Install
+[2025-12-30 18:03:28] [INFO] Section: Select Components to Install
+[2025-12-30 18:03:28] [INFO] Section: Select Components to Install
+[2025-12-30 18:03:31] [WARNING] No packages selected.
+[2025-12-30 18:03:31] [INFO] Section: Configuration Files
+[2025-12-30 18:03:34] [INFO] Backup directory: /home/kall/.config_backup_20251230_180324
+[2025-12-30 18:03:34] [INFO] Backing up hypr...
+[2025-12-30 18:03:34] [INFO] Installing hypr config...
+[2025-12-30 18:03:34] [INFO] Backing up waybar...
+[2025-12-30 18:03:34] [INFO] Installing waybar config...
+[2025-12-30 18:03:34] [INFO] Backing up rofi...
+[2025-12-30 18:03:34] [INFO] Installing rofi config...
+[2025-12-30 18:03:34] [INFO] Backing up wofi...
+[2025-12-30 18:03:34] [INFO] Installing wofi config...
+[2025-12-30 18:03:34] [INFO] Backing up alacritty...
+[2025-12-30 18:03:34] [INFO] Installing alacritty config...
+[2025-12-30 18:03:34] [INFO] Backing up mako...
+[2025-12-30 18:03:34] [INFO] Installing mako config...
+[2025-12-30 18:03:34] [INFO] Backing up wlogout...
+[2025-12-30 18:03:34] [INFO] Installing wlogout config...
+[2025-12-30 18:03:34] [INFO] Backing up go-pray...
+[2025-12-30 18:03:34] [INFO] Installing go-pray config...
+[2025-12-30 18:03:34] [INFO] Backing up ghostty...
+[2025-12-30 18:03:34] [INFO] Installing ghostty config...
+[2025-12-30 18:03:34] [INFO] Backing up dunst...
+[2025-12-30 18:03:34] [INFO] Installing dunst config...
+[2025-12-30 18:03:34] [INFO] Updating .bashrc...
+[2025-12-30 18:03:34] [SUCCESS] Configurations installed.
+[2025-12-30 18:03:34] [INFO] Section: Post-Installation
+[2025-12-30 18:03:34] [SUCCESS] Setup complete!
+[2025-12-30 18:05:39] [WARNING] DRY RUN MODE ENABLED - No changes will be made
+[2025-12-30 18:05:39] [INFO] Section: Checking System
+[2025-12-30 18:05:39] [SUCCESS] Arch Linux / EndeavourOS detected
+[2025-12-30 18:05:39] [INFO] Log file: /home/kall/dotfiles/install.log
+[2025-12-30 18:05:39] [INFO] Section: Selecting Components
+[2025-12-30 18:05:39] [INFO] Section: Select Components to Install
+[2025-12-30 18:05:42] [INFO] Section: Select Components to Install
+[2025-12-30 18:06:52] [WARNING] DRY RUN MODE ENABLED - No changes will be made
+[2025-12-30 18:06:52] [INFO] Section: Checking System
+[2025-12-30 18:06:52] [SUCCESS] Arch Linux / EndeavourOS detected
+[2025-12-30 18:06:52] [INFO] Log file: /home/kall/dotfiles/install.log
+[2025-12-30 18:06:52] [INFO] Section: Selecting Components
+[2025-12-30 18:06:52] [INFO] Section: Select Components to Install
+[2025-12-30 18:06:52] [INFO] Section: Select Components to Install
+[2025-12-30 18:10:04] [WARNING] DRY RUN MODE ENABLED - No changes will be made
+[2025-12-30 18:10:04] [INFO] Section: Checking System
+[2025-12-30 18:10:04] [SUCCESS] Arch Linux / EndeavourOS detected
+[2025-12-30 18:10:04] [INFO] Log file: /home/kall/dotfiles/install.log
+[2025-12-30 18:10:04] [INFO] Section: Selecting Components
+[2025-12-30 18:10:04] [INFO] Section: Select Components to Install
+[2025-12-30 18:10:04] [INFO] Section: Select Components to Install
+[2025-12-30 18:38:39] [WARNING] DRY RUN MODE ENABLED - No changes will be made
+[2025-12-30 18:38:39] [INFO] Section: Checking System
+[2025-12-30 18:38:39] [SUCCESS] Arch Linux / EndeavourOS detected
+[2025-12-30 18:38:39] [INFO] Log file: /home/kall/dotfiles/install.log
+[2025-12-30 18:38:39] [INFO] Section: Selecting Components
+[2025-12-30 18:38:39] [INFO] Section: Select Components to Install
+[2025-12-30 18:38:39] [INFO] Section: Select Components to Install
+[2025-12-30 18:38:39] [INFO] Section: Select Components to Install
+[2025-12-30 18:53:02] [WARNING] DRY RUN MODE ENABLED - No changes will be made
+[2025-12-30 18:53:02] [INFO] Section: Checking System
+[2025-12-30 18:53:02] [SUCCESS] Arch Linux / EndeavourOS detected
+[2025-12-30 18:53:02] [INFO] Log file: /home/kall/dotfiles/install.log
+[2025-12-30 18:53:02] [INFO] Section: Custom Selection
+[2025-12-30 18:53:15] [INFO] Section: Select Terminals
+[2025-12-30 18:53:26] [INFO] Section: Select Terminals
+[2025-12-30 18:53:26] [INFO] Section: Select Browsers
+[2025-12-30 18:53:34] [INFO] Section: Select Browsers
+[2025-12-30 18:53:34] [INFO] Section: Select Media Players
+[2025-12-30 18:54:30] [INFO] Section: Select Media Players
+[2025-12-30 18:54:30] [INFO] Section: Select Shells
+[2025-12-30 18:54:47] [INFO] Section: Select Shells
+[2025-12-30 18:54:47] [INFO] Section: Selecting Components
+[2025-12-30 18:54:47] [INFO] Section: Select Components to Install
+[2025-12-30 18:55:18] [INFO] Section: Installing Packages
+[2025-12-30 18:55:18] [INFO] Updating system...
+[2025-12-30 18:55:18] [INFO] Installing Official Repository Packages...
+[2025-12-30 18:55:18] [INFO] Installing AUR Packages...
+[2025-12-30 18:55:18] [SUCCESS] Package installation complete.
+[2025-12-30 18:55:18] [INFO] Section: Configuration Files
+[2025-12-30 18:55:39] [INFO] Backup directory: /home/kall/.config_backup_20251230_185302
+[2025-12-30 18:55:39] [INFO] Backing up hypr...
+[2025-12-30 18:55:39] [INFO] Installing hypr config...
+[2025-12-30 18:55:39] [INFO] Backing up waybar...
+[2025-12-30 18:55:39] [INFO] Installing waybar config...
+[2025-12-30 18:55:39] [INFO] Backing up rofi...
+[2025-12-30 18:55:39] [INFO] Installing rofi config...
+[2025-12-30 18:55:39] [INFO] Backing up wofi...
+[2025-12-30 18:55:39] [INFO] Installing wofi config...
+[2025-12-30 18:55:39] [INFO] Backing up alacritty...
+[2025-12-30 18:55:39] [INFO] Installing alacritty config...
+[2025-12-30 18:55:39] [INFO] Backing up mako...
+[2025-12-30 18:55:39] [INFO] Installing mako config...
+[2025-12-30 18:55:39] [INFO] Backing up wlogout...
+[2025-12-30 18:55:39] [INFO] Installing wlogout config...
+[2025-12-30 18:55:39] [INFO] Backing up go-pray...
+[2025-12-30 18:55:39] [INFO] Installing go-pray config...
+[2025-12-30 18:55:39] [INFO] Backing up ghostty...
+[2025-12-30 18:55:39] [INFO] Installing ghostty config...
+[2025-12-30 18:55:39] [INFO] Backing up dunst...
+[2025-12-30 18:55:39] [INFO] Installing dunst config...
+[2025-12-30 18:55:39] [INFO] Updating .bashrc...
+[2025-12-30 18:55:39] [SUCCESS] Configurations installed.
+[2025-12-30 18:55:39] [INFO] Section: Post-Installation
+[2025-12-30 18:55:39] [SUCCESS] Setup complete!
+[2025-12-30 18:56:18] [WARNING] DRY RUN MODE ENABLED - No changes will be made
+[2025-12-30 18:56:18] [INFO] Section: Checking System
+[2025-12-30 18:56:18] [SUCCESS] Arch Linux / EndeavourOS detected
+[2025-12-30 18:56:18] [INFO] Log file: /home/kall/dotfiles/install.log
+[2025-12-30 18:56:18] [INFO] Section: Custom Selection
+[2025-12-30 18:56:23] [INFO] Section: Select Terminals
+[2025-12-30 18:56:24] [INFO] Section: Select Terminals
+[2025-12-30 18:56:24] [INFO] Section: Select Terminals
+[2025-12-30 18:56:25] [INFO] Section: Select Terminals
+[2025-12-30 18:56:25] [INFO] Section: Select Terminals
+[2025-12-30 18:56:26] [INFO] Section: Select Terminals
+[2025-12-30 18:56:27] [INFO] Section: Select Browsers
+[2025-12-30 18:56:29] [INFO] Section: Select Browsers
+[2025-12-30 18:56:30] [INFO] Section: Select Media Players
+[2025-12-30 18:56:31] [INFO] Section: Select Media Players
+[2025-12-30 18:56:31] [INFO] Section: Select Media Players
+[2025-12-30 18:56:31] [INFO] Section: Select Media Players
+[2025-12-30 18:56:32] [INFO] Section: Select Shells
+[2025-12-30 18:56:35] [INFO] Section: Select Shells
+[2025-12-30 18:56:35] [INFO] Section: Select Shells
+[2025-12-30 18:56:36] [INFO] Section: Select Shells
+[2025-12-30 18:56:38] [INFO] Section: Selecting Components
+[2025-12-30 18:56:38] [INFO] Section: Select Components to Install
+[2025-12-30 18:56:42] [INFO] Section: Installing Packages
+[2025-12-30 18:56:42] [INFO] Updating system...
+[2025-12-30 18:56:42] [INFO] Installing Official Repository Packages...
+[2025-12-30 18:56:42] [INFO] Installing AUR Packages...
+[2025-12-30 18:56:42] [SUCCESS] Package installation complete.
+[2025-12-30 18:56:42] [INFO] Section: Configuration Files
+[2025-12-30 18:56:43] [INFO] Backup directory: /home/kall/.config_backup_20251230_185618
+[2025-12-30 18:56:43] [INFO] Backing up hypr...
+[2025-12-30 18:56:43] [INFO] Installing hypr config...
+[2025-12-30 18:56:43] [INFO] Backing up waybar...
+[2025-12-30 18:56:43] [INFO] Installing waybar config...
+[2025-12-30 18:56:43] [INFO] Backing up rofi...
+[2025-12-30 18:56:43] [INFO] Installing rofi config...
+[2025-12-30 18:56:43] [INFO] Backing up wofi...
+[2025-12-30 18:56:43] [INFO] Installing wofi config...
+[2025-12-30 18:56:43] [INFO] Backing up alacritty...
+[2025-12-30 18:56:43] [INFO] Installing alacritty config...
+[2025-12-30 18:56:43] [INFO] Backing up mako...
+[2025-12-30 18:56:43] [INFO] Installing mako config...
+[2025-12-30 18:56:43] [INFO] Backing up wlogout...
+[2025-12-30 18:56:43] [INFO] Installing wlogout config...
+[2025-12-30 18:56:43] [INFO] Backing up go-pray...
+[2025-12-30 18:56:43] [INFO] Installing go-pray config...
+[2025-12-30 18:56:43] [INFO] Backing up ghostty...
+[2025-12-30 18:56:43] [INFO] Installing ghostty config...
+[2025-12-30 18:56:43] [INFO] Backing up dunst...
+[2025-12-30 18:56:43] [INFO] Installing dunst config...
+[2025-12-30 18:56:43] [INFO] Updating .bashrc...
+[2025-12-30 18:56:43] [SUCCESS] Configurations installed.
+[2025-12-30 18:56:43] [INFO] Section: Post-Installation
+[2025-12-30 18:56:43] [SUCCESS] Setup complete!

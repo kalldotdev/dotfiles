@@ -50,7 +50,7 @@
 
 # --- Appearance ---
 theme = catppuccin-mocha.conf
-font-family = "JetBrainsMono Nerd Font"
+font-family = "GeistMono Nerd Font"
 font-size = 12
 window-decoration = false
 background-opacity = 0.9
