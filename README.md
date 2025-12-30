@@ -1,209 +1,143 @@
-# Dotfiles - EndeavourOS Hyprland Setup
+# Hyprland Dotfiles
 
-Personal dotfiles for a complete Hyprland desktop environment on EndeavourOS/Arch Linux, featuring the Catppuccin Mocha theme, Waybar with Islamic prayer times integration, and a curated set of Wayland-native applications.
+A comprehensive, interactive dotfiles suite for **Arch-based Linux systems** (Arch Linux, EndeavourOS, etc.). Features a fully configured Hyprland desktop with consistent Catppuccin Mocha theming, automated management scripts, and robust backup systems.
+
+> [!IMPORTANT]
+> **Font**: Now uses **Geist Mono Nerd Font** (previously JetBrains Mono).
 
 ## Features
 
-- **Hyprland** - Dynamic tiling Wayland compositor
-- **Waybar** - Customizable status bar with system monitoring and prayer times
-- **Catppuccin Mocha** - Consistent theming across all applications
-- **go-pray** - Islamic prayer times integration (Gresik, Indonesia)
-- **JetBrainsMono Nerd Font** - Universal font across terminal and UI
-- **Wofi/Rofi** - Application launchers
-- **Alacritty/Ghostty** - Terminal emulators
-- **Mako** - Notification daemon
+- **Hyprland**: Dynamic tiling Wayland compositor.
+- **Interactive Installer**: Granular control over what to install (terminals, shells, browsers, etc.).
+- **Consistent Theming**: **Catppuccin Mocha** applied everywhere (GTK, QT, Waybar, Terminals).
+- **Core Apps**: Waybar, Wofi/Rofi, Mako/Dunst, Hyprlock, Hypridle.
+- **Productivity**: Thunar (with plugins), Grim/Slurp (screenshots), Clipboard history.
+- **Networking**: TUI-based bluetooth (`bluetui`) and network (`impala`) management.
+- **Automation**: Scripts for installing, applying configs, and backing up to Git.
+
+---
 
 ## Quick Start
 
-### Fresh Installation (New System)
+### 1. Installation (New System)
 
-For a complete installation with all packages and configurations:
+Clone the repository and run the interactive installer:
 
 ```bash
 git clone https://github.com/yourusername/dotfiles.git ~/dotfiles
 cd ~/dotfiles
-chmod +x install.sh
 ./install.sh
 ```
 
-This will:
-- Install all required packages (Hyprland, Waybar, etc.)
-- Install AUR helper (yay) if not present
-- Install AUR packages (go-pray, themes, etc.)
-- Backup existing configurations
-- Apply dotfiles
-- Set up directories
+**What happens next?**
+1. **Interactive Menu**: You will be asked to select components:
+   - **Terminals**: `kitty`, `alacritty`, `ghostty`
+   - **Browsers**: `zen`, `firefox`, `chrome`, `edge`, `brave`, `chromium`
+   - **Media**: `mpv`, `vlc`, `celluloid`
+   - **Shells**: `zsh`, `bash`, `fish`
+   - **Core Components**: Toggle groups like Theming, Networking, or Development.
+2. **System Update**: Runs `pacman -Syu`.
+3. **Installation**: Installs selected packages (official + AUR via `yay`/`paru`).
+4. **Configuration**: Backs up existing files and applies new configs.
 
-### Apply Configs Only (Existing Setup)
+> **Tip**: Use `./install.sh --dry-run` to preview actions without making changes.
 
-If you already have packages installed and just want to update configurations:
+### 2. Update Configurations (Existing Setup)
 
-```bash
-cd ~/dotfiles
-chmod +x apply.sh
-./apply.sh
-```
+If you made changes to the repo and want to apply them to your system:
 
-### Manual Installation
-
-1. Install packages from `packages.txt`:
-```bash
-# Install pacman packages
-sudo pacman -S --needed hyprland waybar wofi alacritty mako ...
-
-# Install AUR packages (using yay)
-yay -S hyprswitch go-pray-bin catppuccin-gtk-theme-mocha
-```
-
-2. Apply configurations:
 ```bash
 ./apply.sh
 ```
 
-## Backup Your Current Setup
+- **Interactive**: Select exactly which configs to update (e.g., only `waybar` and `hypr`).
+- **Safe**: Automatically creates a backup in `~/.config_backup_TIMESTAMP/` before overwriting.
 
-Before installing, the scripts automatically create backups at `~/.config_backup_TIMESTAMP/`. You can also manually backup:
+### 3. Backup & Sync
+
+To back up your current system configurations back to this repository and push to GitHub:
 
 ```bash
-mkdir -p ~/config_backup
-cp -r ~/.config/{hypr,waybar,alacritty} ~/config_backup/
-cp ~/.bashrc ~/config_backup/
+./backup.sh
 ```
+
+- **Syncs**: Copies files from `~/.config/` → `~/dotfiles/config/`.
+- **Git**: Automatically stages, commits, and pushes changes (interactively).
+
+---
 
 ## Repository Structure
 
-```
+```tree
 dotfiles/
-├── config/              # Application configurations
-│   ├── hypr/           # Hyprland (window manager)
+├── config/              # Configuration sources
+│   ├── hypr/           # Window manager & lockscreen
 │   ├── waybar/         # Status bar
-│   ├── alacritty/      # Terminal
+│   ├── alacritty/      # Terminal 1
+│   ├── ghostty/        # Terminal 2
 │   ├── wofi/           # Launcher
 │   ├── rofi/           # Alternative launcher
 │   ├── mako/           # Notifications
-│   ├── ghostty/        # Alternative terminal
-│   ├── go-pray/        # Prayer times
 │   ├── dunst/          # Alternative notifications
+│   ├── go-pray/        # Prayer times utility
 │   └── wlogout/        # Logout menu
-├── .bashrc             # Bash configuration
-├── backup.sh           # Backup system → repo
-├── install.sh          # Full installation script
-├── apply.sh            # Apply configs only
-├── packages.txt        # Package list
-├── WARP.md            # AI assistant guidance
-└── README.md          # This file
+├── install.sh          # Main interactive installer
+├── apply.sh            # Config applicator
+├── backup.sh           # Git sync & backup tool
+├── packages.txt        # Reference list of packages
+└── README.md           # Documentation
 ```
 
 ## Key Bindings
 
 | Keybinding | Action |
 |------------|--------|
-| `SUPER + Return` | Launch terminal |
-| `SUPER + Space` | Application launcher |
-| `SUPER + W` | Close window |
-| `SUPER + F` | Toggle fullscreen |
-| `SUPER + T` | Toggle floating |
-| `SUPER + E` | File manager |
-| `SUPER + L` | Lock screen |
-| `SUPER + X` | Power menu |
-| `SUPER + V` | Clipboard history |
-| `SUPER + [1-9,0]` | Switch workspace |
-| `SUPER + SHIFT + [1-9,0]` | Move window to workspace |
-| `SUPER + Arrow Keys` | Move focus |
-| `SUPER + SHIFT + Arrows` | Swap windows |
-| `SUPER + ALT + H/J/K/L` | Resize window |
-| `Print` | Screenshot (select area) |
-| `SUPER + Print` | Screenshot (fullscreen) |
+| `SUPER + Return` | Open Terminal |
+| `SUPER + Space` | App Launcher (Wofi/Rofi) |
+| `SUPER + E` | File Manager (Thunar) |
+| `SUPER + B` | Browser |
+| `SUPER + Q` | Close Window |
+| `SUPER + L` | Lock Screen |
+| `SUPER + Backspace` | Power Menu (Wlogout) |
+| `SUPER + V` | Clipboard History |
+| `SUPER + Print` | Screenshot (Fullscreen) |
+| `SUPER + SHIFT + Print` | Screenshot (Region) |
+| `SUPER + [1-0]` | Switch Workspace |
+| `SUPER + SHIFT + [1-0]` | Move Window to Workspace |
 
-See `WARP.md` for complete keybinding reference.
+> Check `config/hypr/hyprland.conf` for the full list.
 
-## Updating Configurations
+## customization
 
-### Backup System to Repository
+### Apps & Packages
+Edit `install.sh` to modify the default package lists or groups. The script is modular, so you can easily add new categories.
 
-After making changes to your system configs:
+### Theming
+- **GTK**: Managed via `nwg-look` (Catppuccin Mocha Standard).
+- **QT**: Managed via `qt6ct`.
+- **Cursor**: Qogir.
+- **Icons**: Tela Circle (or similar).
 
-```bash
-./backup.sh
-git add .
-git commit -m "Update config"
-git push
-```
+### Wallpapers
+Place wallpapers in `~/.config/hypr/wallpapers/` and update `hyprpaper.conf`.
 
-### Pull Updates from Repository
-
-```bash
-cd ~/dotfiles
-git pull
-./apply.sh
-```
-
-## Customization
-
-### Change Prayer Location
-
-Edit `~/.config/go-pray/config.toml`:
-```toml
-city = "YourCity"
-country = "YourCountry"
-method = "YourMethod"  # e.g., "Kemenag", "MWL", "ISNA"
-```
-
-### Change Theme Colors
-
-All configs use Catppuccin Mocha. To change:
-- Hyprland: `~/.config/hypr/themes/catppuccin.conf`
-- Waybar: `~/.config/waybar/style.css`
-- Alacritty: `~/.config/alacritty/catppuccin-mocha.toml`
-- Other apps follow the same pattern
-
-### Add Applications to Backup
-
-Edit `backup.sh` and add to the `folders` array:
-```bash
-folders=(
-    "hypr"
-    "waybar"
-    "your-new-app"
-)
-```
+---
 
 ## Troubleshooting
 
-### Hyprland won't start
-- Check logs: `~/.local/share/hyprland/hyprland.log`
-- Ensure all packages are installed
-- Try: `Hyprland` from TTY
-
-### Waybar not showing
-- Reload: `pkill waybar; waybar &`
-- Check config: `~/.config/waybar/config`
-
-### Prayer times not working
-- Install go-pray: `yay -S go-pray-bin`
-- Test: `go-pray next`
-- Configure: `~/.config/go-pray/config.toml`
-
-### Scripts not executable
+**"Command not found"**
+Ensure the script is executable:
 ```bash
-chmod +x ~/.config/hypr/scripts/*.sh
-chmod +x ~/.config/waybar/scripts/*.sh
+chmod +x install.sh apply.sh backup.sh
 ```
 
-## System Requirements
+**Hyprland crashes / won't start**
+- Check logs: `cat $XDG_RUNTIME_DIR/hypr/hyprland.log`
+- Verify you have a compliant Wayland GPU driver (especially Nvidia users need `nvidia-drm.modeset=1`).
 
-- **OS**: EndeavourOS, Arch Linux, or Arch-based distro
-- **Display**: Wayland-compatible GPU
-- **Memory**: 4GB+ RAM recommended
-- **Packages**: See `packages.txt`
-
-## Credits
-
-- [Hyprland](https://hyprland.org/) - Dynamic tiling Wayland compositor
-- [Catppuccin](https://github.com/catppuccin/catppuccin) - Soothing pastel theme
-- [go-pray](https://github.com/hablullah/go-pray) - Islamic prayer times calculator
-- [JetBrains Mono](https://www.jetbrains.com/lp/mono/) - Font
+**Waybar missing modules**
+- Ensure font `otf-geist-mono-nerd` is installed.
+- Reload: `pkill waybar && waybar &`
 
 ## License
-
-Personal dotfiles - feel free to use and modify as needed.
+MIT / Personal Use. Feel free to fork and adapt.

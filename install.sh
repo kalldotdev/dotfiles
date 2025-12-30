@@ -112,6 +112,8 @@ run_cmd() {
     if [ "$DRY_RUN" = true ]; then
         echo -e "${YELLOW}[DRY RUN] Would execute: $*${NC}"
     else
+        # Print command being executed for debugging context
+        echo -e "${CYAN}Running: $*${NC}"
         "$@"
     fi
 }
@@ -224,7 +226,7 @@ check_system() {
             exit 1
         fi
     fi
-    print_success "Arch Linux / EndeavourOS detected"
+    print_success "Arch Linux detected"
     
     touch "$LOG_FILE"
     print_info "Log file: $LOG_FILE"
@@ -239,7 +241,8 @@ setup_aur_helper() {
             print_info "Installing yay..."
             run_cmd sudo pacman -S --needed --noconfirm git base-devel
             run_cmd git clone https://aur.archlinux.org/yay.git /tmp/yay
-            run_cmd cd /tmp/yay && makepkg -si --noconfirm
+            run_cmd cd /tmp/yay
+            run_cmd makepkg -si --noconfirm
             run_cmd rm -rf /tmp/yay
         fi
     fi
