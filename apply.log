@@ -28,3 +28,161 @@
 [2025-12-30 20:12:00] [INFO] Backing up .bashrc...
 [2025-12-30 20:12:00] [INFO] Applying .bashrc...
 [2025-12-30 20:12:00] [SUCCESS] Configurations applied successfully.
+[2025-12-30 21:09:51] [INFO] Section: Dotfiles Configuration Applicator
+[2025-12-30 21:09:51] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:09:56] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:09:57] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:09:57] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:09:57] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:09:58] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:09:58] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:09:58] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:09:58] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:09:59] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:00] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:00] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:00] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:00] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:00] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:00] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:00] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:00] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:01] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:01] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:01] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:01] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:01] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:01] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:01] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:01] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:02] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:02] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:02] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:03] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:07] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:07] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:07] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:08] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:09] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:09] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:18] [INFO] Backup directory: /home/kall/.config_backup_20251230_210951
+[2025-12-30 21:10:18] [INFO] Backing up go-pray...
+[2025-12-30 21:10:18] [INFO] Installing go-pray config...
+[2025-12-30 21:10:18] [INFO] Backing up hypr...
+[2025-12-30 21:10:18] [INFO] Installing hypr config...
+[2025-12-30 21:10:19] [SUCCESS] Configurations applied successfully.
+[2025-12-30 21:10:34] [INFO] Section: Dotfiles Configuration Applicator
+[2025-12-30 21:10:34] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:34] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:36] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:39] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:40] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:40] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:40] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:40] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:41] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:41] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:41] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:41] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:42] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:42] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:45] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:45] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:45] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:45] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:45] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:45] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:46] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:46] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:46] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:46] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:46] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:46] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:46] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:46] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:46] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:47] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:47] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:47] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:47] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:47] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:47] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:48] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:48] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:48] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:48] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:48] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:48] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:48] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:49] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:49] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:10:51] [INFO] Backup directory: /home/kall/.config_backup_20251230_211034
+[2025-12-30 21:10:51] [INFO] Backing up hypr...
+[2025-12-30 21:10:51] [INFO] Installing hypr config...
+[2025-12-30 21:10:51] [SUCCESS] Configurations applied successfully.
+[2025-12-30 21:13:44] [INFO] Section: Dotfiles Configuration Applicator
+[2025-12-30 21:13:44] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:13:45] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:13:45] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:13:45] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:13:46] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:13:46] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:13:46] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:13:58] [WARNING] Application cancelled.
+[2025-12-30 21:14:08] [INFO] Section: Dotfiles Configuration Applicator
+[2025-12-30 21:14:08] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:14:11] [INFO] Backup directory: /home/kall/.config_backup_20251230_211408
+[2025-12-30 21:14:11] [INFO] Backing up alacritty...
+[2025-12-30 21:14:11] [INFO] Installing alacritty config...
+[2025-12-30 21:14:11] [INFO] Backing up dunst...
+[2025-12-30 21:14:11] [INFO] Installing dunst config...
+[2025-12-30 21:14:11] [INFO] Backing up ghostty...
+[2025-12-30 21:14:11] [INFO] Installing ghostty config...
+[2025-12-30 21:14:11] [INFO] Backing up go-pray...
+[2025-12-30 21:14:11] [INFO] Installing go-pray config...
+[2025-12-30 21:14:11] [INFO] Backing up hypr...
+[2025-12-30 21:14:11] [INFO] Installing hypr config...
+[2025-12-30 21:14:11] [INFO] Backing up hypremoji...
+[2025-12-30 21:14:11] [INFO] Installing hypremoji config...
+[2025-12-30 21:16:12] [INFO] Section: Dotfiles Configuration Applicator
+[2025-12-30 21:16:12] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:16:13] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:16:13] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:16:13] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:16:13] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:16:13] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:16:14] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:16:14] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:16:14] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:16:14] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:16:14] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:16:15] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:16:15] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:16:15] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:16:15] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:16:15] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:17:26] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:17:26] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:17:26] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:17:26] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:17:27] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:17:27] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:17:27] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:17:27] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:17:29] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:17:29] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:17:29] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:17:30] [INFO] Section: Select Configurations to Apply
+[2025-12-30 21:17:31] [INFO] Backup directory: /home/kall/.config_backup_20251230_211612
+[2025-12-30 21:17:31] [INFO] Backing up alacritty...
+[2025-12-30 21:17:31] [INFO] Installing alacritty config...
+[2025-12-30 21:17:31] [INFO] Backing up dunst...
+[2025-12-30 21:17:31] [INFO] Installing dunst config...
+[2025-12-30 21:17:31] [INFO] Backing up ghostty...
+[2025-12-30 21:17:31] [INFO] Installing ghostty config...
+[2025-12-30 21:17:31] [INFO] Backing up go-pray...
+[2025-12-30 21:17:31] [INFO] Installing go-pray config...
+[2025-12-30 21:17:31] [INFO] Backing up hypr...
+[2025-12-30 21:17:31] [INFO] Installing hypr config...
+[2025-12-30 21:17:31] [INFO] Backing up kitty...
+[2025-12-30 21:17:31] [INFO] Installing kitty config...

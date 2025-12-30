@@ -103,6 +103,10 @@ backup_configs() {
         "go-pray"
         "ghostty"
         "dunst"
+        "kitty"
+        "lazygit"
+        "lazydocker"
+        "hypremoji"
     )
 
     for dir in "${config_dirs[@]}"; do
