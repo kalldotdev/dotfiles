@@ -113,19 +113,20 @@ backup_configs() {
         if [ -d "$HOME/.config/$dir" ]; then
             print_info "Syncing $dir..."
             
-            # Create dest if needed
-            run_cmd mkdir -p "$SCRIPT_DIR/config/$dir"
+            # Create config parent dir if needed
+            run_cmd mkdir -p "$SCRIPT_DIR/config"
             
-            # Sync content (using rsync if available would be better, but cp is standard)
-            # We empty directory first to ensure 1:1 sync (handling deletions)
+            # Sync content
+            # We remove the destination dir and copy the source dir to ensure 1:1 sync (handling deletions and empty dirs)
             if [ "$DRY_RUN" = false ]; then
-                rm -rf "$SCRIPT_DIR/config/$dir"/*
-                cp -r "$HOME/.config/$dir/"* "$SCRIPT_DIR/config/$dir/"
+                rm -rf "$SCRIPT_DIR/config/$dir"
+                cp -r "$HOME/.config/$dir" "$SCRIPT_DIR/config/"
             else
-                 echo -e "${YELLOW}[DRY RUN] Would sync contents of ~/.config/$dir to $SCRIPT_DIR/config/$dir${NC}"
+                 echo -e "${YELLOW}[DRY RUN] Would sync $HOME/.config/$dir to $SCRIPT_DIR/config/$dir${NC}"
             fi
         else
-            print_warning "$dir not found in ~/.config/"
+            # Silently skip missing directories, just log to file
+            log "INFO" "$dir not found in ~/.config/, skipping"
         fi
     done
     
