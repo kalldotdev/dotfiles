@@ -577,3 +577,21 @@
 [2025-12-30 21:56:11] [INFO] Uninstalling fish...
 [2025-12-30 21:56:11] [INFO] Switching default shell to Zsh...
 [2025-12-30 21:56:14] [SUCCESS] Fish uninstalled.
+[2025-12-31 10:39:53] [INFO] Section: Checking System
+[2025-12-31 10:39:53] [SUCCESS] Arch Linux detected
+[2025-12-31 10:39:53] [INFO] Log file: /home/kall/dotfiles/install.log
+[2025-12-31 10:39:53] [INFO] Section: Custom Selection
+[2025-12-31 10:39:54] [INFO] Section: Select Terminals
+[2025-12-31 10:39:57] [INFO] Section: Select Browsers
+[2025-12-31 10:39:57] [INFO] Section: Select Media Players
+[2025-12-31 10:39:58] [INFO] Section: Select Shells
+[2025-12-31 10:39:58] [INFO] Section: Selecting Components
+[2025-12-31 10:39:58] [INFO] Section: Select Components to Install
+[2025-12-31 10:40:00] [WARNING] Installation aborted by user.
+[2025-12-31 10:40:00] [INFO] Section: Configuration Files
+[2025-12-31 10:40:01] [INFO] Section: Post-Installation
+[2025-12-31 10:40:01] [SUCCESS] Setup complete!
+[2025-12-31 10:40:01] [INFO] Section: Legacy Shell Cleanup
+[2025-12-31 10:40:01] [WARNING] Fish shell is currently installed.
+[2025-12-31 10:40:03] [INFO] Uninstalling fish...
+[2025-12-31 10:40:03] [SUCCESS] Fish uninstalled.

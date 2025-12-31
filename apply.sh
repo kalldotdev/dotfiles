@@ -248,12 +248,6 @@ apply_config() {
             if [ -f "$SCRIPT_DIR/.bashrc" ]; then
                 run_cmd cp "$SCRIPT_DIR/.bashrc" "$HOME/.bashrc"
             fi
-            if [ -f "$SCRIPT_DIR/config/hypr/scripts/powermenu.sh" ]; then
-                 run_cmd chmod +x "$SCRIPT_DIR/config/hypr/scripts/"*.sh 2>/dev/null || true
-            fi
-             if [ -f "$SCRIPT_DIR/config/waybar/scripts/prayer_times.sh" ]; then
-                 run_cmd chmod +x "$SCRIPT_DIR/config/waybar/scripts/"*.sh 2>/dev/null || true
-            fi
 
         else
             print_info "Backing up $cfg..."
@@ -266,6 +260,11 @@ apply_config() {
             run_cmd cp -r "$SCRIPT_DIR/config/$cfg/"* "$HOME/.config/$cfg/"
         fi
     done
+    
+    # Ensure scripts are executable
+    print_info "Ensuring scripts are executable..."
+    run_cmd chmod +x "$HOME/.config/hypr/scripts/"*.sh 2>/dev/null || true
+    run_cmd chmod +x "$HOME/.config/waybar/scripts/"*.sh 2>/dev/null || true
     
     print_success "Configurations applied successfully."
 }

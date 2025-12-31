@@ -38,13 +38,13 @@ GROUP_ORDER=(
     "Development"
 )
 
-PKG_GROUPS["Core"]="hyprland hyprlock hypridle hyprpaper waybar wofi rofi dunst wlogout xdg-desktop-portal-hyprland polkit-kde-agent"
+PKG_GROUPS["Core"]="hyprland hyprlock hypridle hyprpaper waybar wofi rofi dunst wlogout xdg-desktop-portal-hyprland hyprpolkitagent"
 PKG_DESCRIPTIONS["Core"]="Essential Hyprland components and desktop portal"
 
-PKG_GROUPS["Utilities"]="thunar grim slurp swappy wl-clipboard cliphist playerctl pavucontrol brightnessctl udiskie lazygit lazydocker zsh-autosuggestions zsh-syntax-highlighting pipewire wireplumber pipewire-pulse gvfs thunar-archive-plugin file-roller"
+PKG_GROUPS["Utilities"]="thunar grim slurp swappy wl-clipboard cliphist playerctl pavucontrol brightnessctl udiskie lazygit lazydocker zsh-autosuggestions zsh-syntax-highlighting pipewire wireplumber pipewire-pulse gvfs thunar-archive-plugin file-roller libnotify"
 PKG_DESCRIPTIONS["Utilities"]="File manager, screenshots, audio, shell plugins, lazy tools"
 
-PKG_GROUPS["Theming"]="starship otf-geist-mono-nerd catppuccin-gtk-theme-mocha qogir-cursor-theme-git hypremoji qt6ct nwg-look"
+PKG_GROUPS["Theming"]="starship otf-geist-mono-nerd catppuccin-gtk-theme-mocha qogir-cursor-theme-git hypremoji qt6ct nwg-look cava"
 PKG_DESCRIPTIONS["Theming"]="Fonts, themes, shell prompt, theme managers"
 
 PKG_GROUPS["Networking"]="bluetui impala bluez bluez-utils"
@@ -67,7 +67,7 @@ SHELLS=("zsh" "bash")
 SHELL_DESCS=("Z Shell" "Bourne Again Shell")
 
 # AUR specific packages
-AUR_PACKAGES="hyprswitch go-pray-bin catppuccin-gtk-theme-mocha qogir-cursor-theme-git hypremoji bluetui impala lazydocker otf-geist-mono-nerd zen-browser-bin google-chrome microsoft-edge-stable-bin brave-bin ghostty"
+AUR_PACKAGES="hyprswitch go-pray-bin catppuccin-gtk-theme-mocha qogir-cursor-theme-git hypremoji bluetui impala lazydocker otf-geist-mono-nerd zen-browser-bin google-chrome microsoft-edge-stable-bin brave-bin ghostty hyprpolkitagent"
 
 # ==============================================================================
 # UTILITIES

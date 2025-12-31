@@ -35,6 +35,7 @@ bash
 
 # Notifications
 mako
+libnotify
 dunst
 
 # Logout Menu
@@ -47,6 +48,7 @@ thunar
 grim
 slurp
 swappy
+udiskie
 
 # Clipboard
 wl-clipboard
@@ -61,8 +63,8 @@ pamixer
 brightnessctl
 
 # Networking (TUI)
-# bluetui (AUR)
-# impala (AUR)
+bluetui (AUR)
+impala (AUR)
 
 # Lazy Tools
 lazygit
@@ -70,7 +72,7 @@ lazygit
 
 
 # Polkit Agent
-polkit-kde-agent
+hyprpolkitagent
 
 # Qt Theme
 qt6ct
@@ -99,6 +101,7 @@ zsh-syntax-highlighting
 pipewire
 wireplumber
 pipewire-pulse
+cava
 
 # File Manager Plugins
 gvfs
