@@ -1,6 +1,6 @@
 # Hyprland Dotfiles
 
-A comprehensive, interactive dotfiles suite for **Arch-based Linux systems** (Arch Linux, EndeavourOS, etc.). Features a fully configured Hyprland desktop with consistent Catppuccin Mocha theming, automated management scripts, and robust backup systems.
+A comprehensive, **partially and mostly AI Generated ** interactive dotfiles suite for **Arch-based Linux systems** (Arch Linux, EndeavourOS, etc.). Features a fully configured Hyprland desktop with consistent Catppuccin Mocha theming, automated management scripts, and robust backup systems.
 
 > [!IMPORTANT]
 > **Font**: Now uses **Geist Mono Nerd Font** (previously JetBrains Mono).

@@ -1336,3 +1336,28 @@
 [2025-12-31 14:03:06] [INFO] Installing waybar config...
 [2025-12-31 14:03:06] [INFO] Ensuring scripts are executable...
 [2025-12-31 14:03:06] [SUCCESS] Configurations applied successfully.
+[2025-12-31 15:44:48] [INFO] Section: Dotfiles Configuration Applicator
+[2025-12-31 15:44:48] [INFO] Section: Select Configurations to Apply
+[2025-12-31 15:44:49] [INFO] Section: Select Configurations to Apply
+[2025-12-31 15:44:49] [INFO] Section: Select Configurations to Apply
+[2025-12-31 15:44:49] [INFO] Section: Select Configurations to Apply
+[2025-12-31 15:44:49] [INFO] Section: Select Configurations to Apply
+[2025-12-31 15:44:50] [INFO] Section: Select Configurations to Apply
+[2025-12-31 15:44:50] [INFO] Section: Select Configurations to Apply
+[2025-12-31 15:44:50] [INFO] Section: Select Configurations to Apply
+[2025-12-31 15:44:50] [INFO] Section: Select Configurations to Apply
+[2025-12-31 15:44:50] [INFO] Section: Select Configurations to Apply
+[2025-12-31 15:44:50] [INFO] Section: Select Configurations to Apply
+[2025-12-31 15:44:50] [INFO] Section: Select Configurations to Apply
+[2025-12-31 15:44:51] [INFO] Section: Select Configurations to Apply
+[2025-12-31 15:44:51] [INFO] Section: Select Configurations to Apply
+[2025-12-31 15:44:51] [INFO] Section: Select Configurations to Apply
+[2025-12-31 15:44:52] [INFO] Section: Select Configurations to Apply
+[2025-12-31 15:44:52] [INFO] Section: Select Configurations to Apply
+[2025-12-31 15:44:55] [INFO] Backup directory: /home/kall/.config_backup_20251231_154448
+[2025-12-31 15:44:55] [INFO] Backing up hypr...
+[2025-12-31 15:44:55] [INFO] Installing hypr config...
+[2025-12-31 15:44:55] [INFO] Backing up hypremoji...
+[2025-12-31 15:44:55] [INFO] Installing hypremoji config...
+[2025-12-31 15:44:55] [INFO] Ensuring scripts are executable...
+[2025-12-31 15:44:55] [SUCCESS] Configurations applied successfully.
