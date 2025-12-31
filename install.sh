@@ -66,8 +66,27 @@ MEDIA_PLAYER_DESCS=("Powerful CLI/GUI player" "Classic all-rounder" "GTK fronten
 SHELLS=("zsh" "bash")
 SHELL_DESCS=("Z Shell" "Bourne Again Shell")
 
+VIEWERS=("imv" "zathura" "zathura-pdf-mupdf")
+VIEWER_DESCS=("Lightweight Wayland Image Viewer" "Minimal PDF Viewer" "PDF Support for Zathura")
+
+# Optional Categories
+GAMES=("steam" "heroic-games-launcher-bin")
+GAME_DESCS=("Valve's Gaming Platform" "Epic/GOG/Amazon Games Launcher (AUR)")
+
+CREATIVE=("kdenlive" "gimp" "inkscape" "obs-studio")
+CREATIVE_DESCS=("Video Editor" "Image Manipulator" "Vector Graphics" "Streaming/Recording Software")
+
+OFFICE=("libreoffice-fresh" "zoom")
+OFFICE_DESCS=("Open Source Office Suite" "Video Conferencing (AUR)")
+
+DEV_TOOLS=("docker" "visual-studio-code-bin" "zed" "neovim" "dbeaver" "postman-bin" "insomnia-bin" "bruno-bin" "flyenv-bin")
+DEV_DESCS=("Container Platform" "VS Code (AUR)" "High-performance Code Editor" "Neovim (LazyVim Ready)" "Universal Database Tool" "API Platform (AUR)" "API Client (AUR)" "Fast Git-friendly API Client (AUR)" "Environment Management Tool (AUR)")
+
+EXTRA_UTILS=("winboat-bin" "pritunl-client-electron" "filezilla" "xpipe-bin" "localsend-bin" "freedownloadmanager")
+EXTRA_DESCS=("Run Windows Apps (AUR)" "OpenVPN Client (AUR)" "FTP Solution" "Shell Connection Hub (AUR)" "AirDrop Alternative (AUR)" "Download Manager (AUR)")
+
 # AUR specific packages
-AUR_PACKAGES="hyprswitch go-pray-bin catppuccin-gtk-theme-mocha qogir-cursor-theme-git hypremoji bluetui impala lazydocker otf-geist-mono-nerd zen-browser-bin google-chrome microsoft-edge-stable-bin brave-bin ghostty hyprpolkitagent"
+AUR_PACKAGES="hyprswitch go-pray-bin catppuccin-gtk-theme-mocha qogir-cursor-theme-git hypremoji bluetui impala lazydocker otf-geist-mono-nerd zen-browser-bin google-chrome microsoft-edge-stable-bin brave-bin ghostty hyprpolkitagent heroic-games-launcher-bin zoom visual-studio-code-bin postman-bin insomnia-bin bruno-bin flyenv-bin winboat-bin pritunl-client-electron xpipe-bin localsend-bin freedownloadmanager"
 
 # ==============================================================================
 # UTILITIES
@@ -306,6 +325,66 @@ install_selected_packages() {
     checkbox_menu "Select Shells" "${shell_args[@]}"
     for idx in "${SELECTED_INDICES[@]}"; do
         packages_to_install+=("${SHELLS[$idx]}")
+    done
+
+    # 5. Viewers
+    local viewer_args=()
+    for ((i=0; i<${#VIEWERS[@]}; i++)); do
+        viewer_args+=("${VIEWERS[$i]}" "${VIEWER_DESCS[$i]}")
+    done
+    checkbox_menu "Select Viewers" "${viewer_args[@]}"
+    for idx in "${SELECTED_INDICES[@]}"; do
+        packages_to_install+=("${VIEWERS[$idx]}")
+    done
+
+    # 6. Gaming
+    local game_args=()
+    for ((i=0; i<${#GAMES[@]}; i++)); do
+        game_args+=("${GAMES[$i]}" "${GAME_DESCS[$i]}")
+    done
+    checkbox_menu "Select Games" "${game_args[@]}"
+    for idx in "${SELECTED_INDICES[@]}"; do
+        packages_to_install+=("${GAMES[$idx]}")
+    done
+
+    # 7. Creative Tools
+    local creative_args=()
+    for ((i=0; i<${#CREATIVE[@]}; i++)); do
+        creative_args+=("${CREATIVE[$i]}" "${CREATIVE_DESCS[$i]}")
+    done
+    checkbox_menu "Select Creative Tools" "${creative_args[@]}"
+    for idx in "${SELECTED_INDICES[@]}"; do
+        packages_to_install+=("${CREATIVE[$idx]}")
+    done
+
+    # 8. Office & Productivity
+    local office_args=()
+    for ((i=0; i<${#OFFICE[@]}; i++)); do
+        office_args+=("${OFFICE[$i]}" "${OFFICE_DESCS[$i]}")
+    done
+    checkbox_menu "Select Office & Productivity" "${office_args[@]}"
+    for idx in "${SELECTED_INDICES[@]}"; do
+        packages_to_install+=("${OFFICE[$idx]}")
+    done
+
+    # 9. Development Tools
+    local dev_args=()
+    for ((i=0; i<${#DEV_TOOLS[@]}; i++)); do
+        dev_args+=("${DEV_TOOLS[$i]}" "${DEV_DESCS[$i]}")
+    done
+    checkbox_menu "Select Development Tools" "${dev_args[@]}"
+    for idx in "${SELECTED_INDICES[@]}"; do
+        packages_to_install+=("${DEV_TOOLS[$idx]}")
+    done
+
+    # 10. Extra Utilities
+    local extra_args=()
+    for ((i=0; i<${#EXTRA_UTILS[@]}; i++)); do
+        extra_args+=("${EXTRA_UTILS[$i]}" "${EXTRA_DESCS[$i]}")
+    done
+    checkbox_menu "Select Extra Utilities" "${extra_args[@]}"
+    for idx in "${SELECTED_INDICES[@]}"; do
+        packages_to_install+=("${EXTRA_UTILS[$idx]}")
     done
     
     MENU_DEFAULT_STATE=true

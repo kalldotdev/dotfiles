@@ -33,6 +33,44 @@ celluloid
 zsh
 bash
 
+# Viewers
+imv
+zathura
+zathura-pdf-mupdf
+
+# Gaming
+steam
+heroic-games-launcher-bin (AUR)
+
+# Creative Tools
+kdenlive
+gimp
+inkscape
+obs-studio
+
+# Office & Productivity
+libreoffice-fresh
+zoom (AUR)
+
+# Development Tools
+docker
+visual-studio-code-bin (AUR)
+zed
+neovim
+dbeaver
+postman-bin (AUR)
+insomnia-bin (AUR)
+bruno-bin (AUR)
+flyenv-bin (AUR)
+
+# Extra Utilities
+winboat-bin (AUR)
+pritunl-client-electron (AUR)
+filezilla
+xpipe-bin (AUR)
+localsend-bin (AUR)
+freedownloadmanager (AUR)
+
 # Notifications
 mako
 libnotify
