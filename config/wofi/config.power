@@ -8,4 +8,4 @@ prompt=
 insensitive=true
 allow_images=false
 markup=true
-term=alacritty
+term=kitty
