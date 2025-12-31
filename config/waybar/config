@@ -17,6 +17,7 @@
         "network",
         "cpu",
         "memory",
+        "bluetooth",
         "pulseaudio",
         "tray"
     ],
@@ -72,7 +73,7 @@
     },
     "network": {
         "interval": 1,
-        "on-click": "nm-applet",
+        "on-click": "kitty --class impala-float -e impala",
         "format-wifi": "  ⬇{bandwidthDownBytes} ⬆{bandwidthUpBytes}",
         "format-ethernet": "󰈀  ⬇{bandwidthDownBytes} ⬆{bandwidthUpBytes}",
         "format-linked": "󰈀 (No IP)",
@@ -82,7 +83,7 @@
     "bluetooth": {
         "format": "",
         "format-connected": " {device_alias}",
-        "on-click": "blueman-manager"
+        "on-click": "kitty --class bluetui-float -e bluetui"
     },
     "custom/power": {
         "format": "⏻",

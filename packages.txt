@@ -76,6 +76,7 @@ hyprpolkitagent
 
 # Qt Theme
 qt6ct
+btop
 
 # Fonts
 # otf-geist-mono-nerd (AUR)

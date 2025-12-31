@@ -41,7 +41,7 @@ GROUP_ORDER=(
 PKG_GROUPS["Core"]="hyprland hyprlock hypridle hyprpaper waybar wofi rofi dunst wlogout xdg-desktop-portal-hyprland hyprpolkitagent"
 PKG_DESCRIPTIONS["Core"]="Essential Hyprland components and desktop portal"
 
-PKG_GROUPS["Utilities"]="thunar grim slurp swappy wl-clipboard cliphist playerctl pavucontrol brightnessctl udiskie lazygit lazydocker zsh-autosuggestions zsh-syntax-highlighting pipewire wireplumber pipewire-pulse gvfs thunar-archive-plugin file-roller libnotify"
+PKG_GROUPS["Utilities"]="thunar grim slurp swappy wl-clipboard cliphist playerctl pavucontrol brightnessctl udiskie lazygit lazydocker zsh-autosuggestions zsh-syntax-highlighting pipewire wireplumber pipewire-pulse gvfs thunar-archive-plugin file-roller libnotify btop"
 PKG_DESCRIPTIONS["Utilities"]="File manager, screenshots, audio, shell plugins, lazy tools"
 
 PKG_GROUPS["Theming"]="starship otf-geist-mono-nerd catppuccin-gtk-theme-mocha qogir-cursor-theme-git hypremoji qt6ct nwg-look cava"
